@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
-<audio controls>
-  <source src="8bit.ogg" type="audio/ogg">
-</audio>
+<audio id="my_audio" src="8bit.ogg" loop="loop"></audio>
+<script>
+	window.onload = function() {
+	document.getElementById("my_audio").play();
+}
+</script>
 <head>
 <style>
 body {
