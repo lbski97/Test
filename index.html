@@ -2,77 +2,20 @@
 <meta name=”apple-mobile-web-app-capable” content=”yes”>
 <link rel="apple-touch-icon" sizes="152x152" href="launch2.png" />
 <html>
- <body>
+<head>
+    <title>Space Clicker</title>
+</head>
 
- <h1><b>My Second Webpage</b></h1>
- <p>This paragraph has all <em>sorts</em> of HTML tags inside of it. It is important that we open <strong>and</strong> close our HTML tags. Otherwise, our code won't be <em><strong>vaild.</strong></em></p>
- <h2><strong>A couple of lists</strong></h2>
- <ul>
-	 <li>Pizza</li>
-	 <ul>
-	 	<li style="list-style-type:circle">Pepperoni</li>
-	 	<li style="list-style-type:circle">Chicken, Bacon, and Ranch</li>
-	 </ul>
-	 <li>Lasagna</li>
-	 <li>Peanut Butter</li>
-	 <li>Chicken</li>
-	 <li>Rice</li>
- </ul>
- <p>An ordered list of my 5 <em>favorite</em>websites:</p>
- <ol>
-	 <li><a href="http://www.google.com">Google</a></li>
-	 <li><a href="http://www.facebook.com">Facebook</a></li>
-	 <li><a href="http://www.reddit.com">Reddit</a></li>
-	 <li><a href="http://www.nytimes.com">NYTimes</a></li>
-	 <li><a href="http://www.spotify.com">Spotify</a></li>
- </ol>
- 
- <hr />
- 
- <h2><strong>An area with a cool table</strong></h2>
- 
- <table>
-	 <tr>
-		 <td><b>Name</b></td>
-		 <td><b>Type</b></td>
-		 <td><b>Favorite Food</b></td>
-		 <td><b>Age</b></td>
-	 </tr>
-	 <tr>
-		 <td>Chris</td>
-		 <td>Human</td>
-		 <td>Bacon</td>
-		 <td>26</td>
-	 </tr>
-	 <tr>
-		 <td>Winnie the Pooh</td>
-		 <td>Bear</td>
-		 <td>Honey</td>
-		 <td>91</td>
-	 </tr>
-	 <tr>
-		 <td>Garfield</td>
-		 <td>Cat</td>
-		 <td>Lasangna</td>
-		 <td>39</td>
-	 </tr>
- </table>
- 
- 
- <h2><strong>And finally, a form!</strong></h2>
- 
- <form>
-  Full Name: <input type="text"><br />
-  Email: <input type="text"><br />
-  Message:<br />
-  <textarea>
-asdfasdf
-</textarea><br />
-  <input type="submit" value="Submit">
-</form>
+<body>
+    <script type="text/javascript">
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onClick="onClick()">Click me</button>
+    <p>Clicks: <a id="clicks">0</a></p>
+
 </body>
- 
- 
- 
- 
- </html>
+</html>
