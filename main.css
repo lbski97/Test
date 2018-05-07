@@ -1,0 +1,268 @@
+body {
+  margin: 0 5% 0 5%;
+  
+}
+
+h1 {
+  font-family: arial;
+  font-weight: bold;
+  
+}
+
+
+  
+
+.wholeNav img{
+	width: 10%;
+}
+#playerPicture {
+	margin: auto;
+}
+#teamPicture {
+	margin: auto;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+table {
+	width: 90%;
+	
+}
+table th, td {
+	border: 1px solid #999;
+	
+}
+
+#open {
+	float: left;
+	
+}
+
+
+div {
+	text-align: center;
+	
+}
+
+li {
+    display: inline;
+    
+    
+}
+#tab img {
+	float: none;
+	margin-right: 10px;
+	margin-top: 40px;
+}
+
+p {
+	text-align: center;
+	
+	
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+    
+    height: 25px;
+    width: 35%;
+    
+    
+    
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 17px;
+    text-decoration: none;
+    
+}
+
+
+#logoDiv img {
+	width: 10%;
+	margin-right: 30px;
+}
+#tab:hover {
+	transform: scale(1.1, 1.1);
+}
+#logo1:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo2:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo3:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo4:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo5:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo6:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo7:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo8:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo9:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo10:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo11:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo12:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo13:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo14:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo15:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo16:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo17:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo18:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo19:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo20:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo21:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo22:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo23:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo24:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo25:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo26:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo27:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo28:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo29:hover {
+	transform: scale(1.5, 1.5);
+}
+#logo30:hover {
+	transform: scale(1.5, 1.5);
+}
+
+
+.bottom {
+  background-color: #eee;
+  
+}
+#teamPicture img {
+	width: 50%;
+}
+
+
+
+.Submit {
+	font-size: 100pt;
+}
+.slide-out-div {
+          padding: 20px;
+          width: 250px;
+          background: #ccc;
+          border: 1px solid #29216d;
+}
+
+
+
+@media (max-width: 600px) {
+    
+	#logoDiv img {
+	margin-right: 5px;
+	margin-top: 10px;
+	width: 15%;
+}
+	#playerPicture img {
+	width: 100%;
+}
+}
+
+
+@media (min-width: 600px) and (max-width: 1199px) {
+    .main {
+		width: 75%;
+    }
+	#logoDiv img {
+	margin-right: 35px;
+	margin-top: 20px;
+	width: 10%;
+	
+}
+}
+
